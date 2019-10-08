@@ -1,0 +1,25 @@
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: 50px;
+    background: linear-gradient(to top, rgb(49, 49, 49) , rgb(20, 20, 20) , rgb(49, 49, 49) );
+    box-sizing: border-box;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+  .headerText{
+    font-size: 25px;
+  }
+
+  .headerText a{
+    text-decoration: none;
+    color: white;
+  }
