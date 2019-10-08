@@ -19,10 +19,10 @@ const main = handleActions(
 
 const isLoading = handleActions(
     {
-        [LOAD_CONTACTS_REQUEST]    : () => true,
-        [CONTACTS_LIST_EMPTY]    : () => true,
-        [LOAD_CONTACTS_FAILURE]    : () => false,
-        [LOAD_CONTACTS_SUCCESS]    : () => false
+        [LOAD_CONTACTS_REQUEST] : () => true,
+        [CONTACTS_LIST_EMPTY]   : () => false,
+        [LOAD_CONTACTS_FAILURE] : () => false,
+        [LOAD_CONTACTS_SUCCESS] : () => false
     },
     false
 );
